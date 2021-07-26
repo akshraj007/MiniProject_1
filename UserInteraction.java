@@ -54,7 +54,7 @@ public class UserInteraction {
     	   ComplaintDetails.checkClosed();
  	       break;
        case 6 : 
-    	   CSVReader.fun();
+    	   ComplaintDetails.checkResponse();
  	       break;
        }
 	}
