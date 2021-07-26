@@ -88,4 +88,18 @@ public class ComplaintDetails {
       	     }
   	      }
      }
+     static void checkResponse() {
+    	 for(int i = 0 ; i < CSVReader.data.length ; i++) {
+    		   if(i > 0) {
+    		   String resp = "Yes";
+    		   if(CSVReader.data[i][11].equalsIgnoreCase(resp)){
+        		   for(int j = 0 ; j < 14 ; j++) {
+        			   System.out.printf(CSVReader.data[i][j] + " ");
+        		     }
+        		       System.out.println();
+        		    }
+        	     }
+    	      }
+     }
+	
    }
